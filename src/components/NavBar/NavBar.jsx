@@ -1,7 +1,7 @@
 import React from 'react'
 import ImagenA from '../Images/Menu.png'
 import ImagenB from '../Images/Logo.png'
-import '../components/NavBar.css'
+import './NavBar.css'
 
 
 
