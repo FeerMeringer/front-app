@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.registro {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.registroA {
+    display: flex;
+    flex-direction: row;
+}
+.i {
+    width: 50vw;
+    height: 99.4vh;
+    object-fit: cover;
+}
+@media (min-width: 320px) and (max-width: 894px) {
+    .i {
+        display: none;
+        width: 1rem;
+    }
+    /* .registroA {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    .registro {
+        width: 100vw;
+    }
+    .formA {
+        width: 25rem;
+    } */
+
+
+}
