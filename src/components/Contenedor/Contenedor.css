@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-box {
+    width: 98vw;
+    position: absolute;
+
+}
+.contenedor {
+    background-image: url(../Images/branden.png);
+    background-size: cover;
+    min-width: 90vw;
+    height: 65vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.move {
+    min-width: 98vw;
+    /* height: 60vh; */
+    gap:0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+    font-size: 2.3rem;
+    
+}
+.text {
+    width: 25rem;
+    font-size: 1.3rem;
+}
+.botonI {
+    height: 2.5rem;
+    width: 12rem;
+    background: linear-gradient(87.46deg, #4338CA 0%, #5E52F3 100%);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aText {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+ @media (min-width: 320px) and (max-width: 894px){
+    .contenedor {
+        background-image: url(../Images/brande.png);
+        height: 110vh;
+        background-size: cover;
+        
+    }
+   
+    .imgText {
+        display: none;
+    }
+
+    .ocultar::before {
+        content:"Your favorite comic book store";
+        font-size: 1.2rem;
+    } 
+    .text {
+        display: none;
+    }
+    .ocultarA::before {
+        content:"From classics to novelties, we have everything you need to immerse yourself in your favorite universes. Explore our catalog and live the adventure of your life.";
+        font-size: 0.8rem;
+        line-height: 0;
+    }
+    .aText {
+        display: none;
+        
+
+    }
+    .ocultarB::before {
+        content: "Started";
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+
+    }
+ }

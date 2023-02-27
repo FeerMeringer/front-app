@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.formA {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.enviarLo {
+    width: 23rem;
+    height: 2.5rem;
+    background: linear-gradient(87.46deg, #4338CA 0%, #5E52F3 100%);
+    box-shadow: 2px 3px orange;
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+    font-family: Roboto;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+.botones {
+    display: flex;
+    flex-direction: column;
+}
+.imgGoogle {
+    width: 23rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1F1F1F;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    
+    
+}
+button {
+    border: none;
+    font-family: Roboto;
+    font-size: 1.2rem;
+}
+
+
+.mover {
+    display: flex;
+    flex-direction: column;
+    height: 68vh;
+
+}
+input {
+    border: none;
+    outline: none;
+    /* background: linear-gradient(0deg, #EBEBEB, #EBEBEB),
+    linear-gradient(0deg, #4338CA, #4338CA); */
+    width: 20rem ;
+    background-color:white;
+    margin-left: 2rem;
+}
+legend {
+    color:#4338CA;
+}
+.imgN {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1rem;
+    border-radius: 6px;
+}
+fieldset {
+    width: 25rem;
+    height: 3rem;
+    border-radius: 2rem;
+    /* background: linear-gradient(0deg, #EBEBEB, #EBEBEB),
+    linear-gradient(0deg, #4338CA, #4338CA); */
+    background-color: white;
+    margin: 0.3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.check {
+    padding: 2rem;
+    left: 1rem;
+    color: #1F1F1F;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    display: flex;
+}
+.checkA {
+    display: flex;
+    width: 1rem;
+    
+}
+/* .boton2 {
+   
+    text-align: center;
+    width: 23rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1F1F1F;
+    border-radius: 10px;
+    margin-top: 1rem;
+    
+} */
+@media (min-width: 320px) and (max-width: 894px) {
+   .formA {
+    width: 20rem;
+    height: 100vh;
+   }
+   .mover {
+    width: 100vw;
+    height: 80vh;
+   }
+   .imgGoogle{
+    width: 12rem;
+    font-size: 0.9rem;
+    margin-left: 9rem;
+}
+.enviarLo {
+    width: 12rem;
+    font-size: 1.2rem;
+    margin-left: 9rem;
+}
+
+fieldset {
+    width: 10rem;
+    margin-left: 8rem;
+}
+input {
+    width: 10rem;
+
+}
+.check {
+    margin-left: 4rem;
+}
+}
