@@ -15,7 +15,7 @@
     flex-direction: row;
 }
 .i {
-    width: 50vw;
+    width: 48.6vw;
     height: 99.4vh;
     object-fit: cover;
 }
@@ -24,17 +24,13 @@
         display: none;
         width: 1rem;
     }
-    /* .registroA {
-        height: 100vh;
+    .registroA {
+        height: 110vh;
+        width: 50vw;
         display: flex;
         justify-content: center;
     }
-    .registro {
-        width: 100vw;
-    }
-    .formA {
-        width: 25rem;
-    } */
+   
 
 
 }

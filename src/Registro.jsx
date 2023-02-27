@@ -8,15 +8,13 @@ function Registro() {
   return (
     <section className="registroA">
     <div className="registro">
-      <div class="fLogo">
+      <div className="fLogo">
         <TituloRegistro/>
       </div>
-    <div className="formA"> 
-    <InputRegistro/>
+      <InputRegistro/>
+    <div className="texto">
+    <BotonRegistro/>
     </div>
-    <div className="enviarA">
-          <BotonRegistro/>
-        </div>
       </div>
       <div>
         <img className="i" src={ImagenDiv} alt="descripción de la imagen" />

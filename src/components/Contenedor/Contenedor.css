@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 .navbar-box {
-    width: 100vw;
+    width: 98vw;
     position: absolute;
 
 }
 .contenedor {
     background-image: url(../Images/branden.png);
     background-size: cover;
-    width: 100vw;
+    min-width: 90vw;
     height: 65vh;
     display: flex;
     text-align: center;
@@ -20,7 +20,7 @@
 }
 
 .move {
-    width: 98vw;
+    min-width: 98vw;
     /* height: 60vh; */
     gap:0.5rem;
     display: flex;
@@ -47,7 +47,6 @@
     align-items: center;
 }
 .aText {
-    color: aliceblue;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -55,16 +54,17 @@
     letter-spacing: 0em;
     text-decoration: none;
     text-align: center;
+    color: white;
 }
 
  @media (min-width: 320px) and (max-width: 894px){
     .contenedor {
         background-image: url(../Images/brande.png);
         height: 110vh;
-        width: 100vw;
         background-size: cover;
         
     }
+   
     .imgText {
         display: none;
     }
@@ -83,6 +83,7 @@
     }
     .aText {
         display: none;
+        
 
     }
     .ocultarB::before {
